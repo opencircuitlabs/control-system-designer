@@ -1,0 +1,7 @@
+{
+  "name": "Second-order actuator",
+  "system": { "numerator": [1], "denominator": [1, 1.4, 1] },
+  "frequency": { "start": 0.001, "end": 1000, "points": 2000 },
+  "step": { "duration": 12, "step": 0.01 },
+  "monteCarlo": { "iterations": 300, "coefficientSigma": 0.03, "seed": 73 }
+}

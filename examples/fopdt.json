@@ -1,0 +1,7 @@
+{
+  "processGain": 2,
+  "timeConstant": 5,
+  "deadTime": 1,
+  "method": "imc",
+  "filterFactor": 1.5
+}

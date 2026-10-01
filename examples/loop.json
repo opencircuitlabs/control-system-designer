@@ -1,0 +1,4 @@
+{
+  "forward": { "numerator": [4], "denominator": [1, 1, 0] },
+  "feedback": { "numerator": [1], "denominator": [1] }
+}

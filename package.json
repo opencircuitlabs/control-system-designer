@@ -1,0 +1,12 @@
+{
+  "name": "@opencircuitlabs/control-system-designer",
+  "version": "1.0.0",
+  "description": "Dependency-free control-system analysis, simulation, synthesis, discretization, and tolerance toolkit",
+  "type": "module",
+  "exports": "./src/index.js",
+  "bin": { "control-system-designer": "./src/cli.js" },
+  "scripts": { "test": "node --test", "check": "node --check src/index.js && node --check src/cli.js" },
+  "keywords": ["control-systems", "pid", "transfer-function", "state-space", "bode"],
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
